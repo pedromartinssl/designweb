@@ -11,22 +11,29 @@ $cor-text-body: #9C9C9C;
 $cor-border-button: #62BA1B;
 
 body{
-    font-family: $font-texto;
-
+     font: $font-texto;
+     background-color: $cor-bg-body;
+     color: $cor-text-body;
 }
 
-body{
-    font: $font-texto;
-    background-color: $cor-bg-body;
-    color: $cor-text-body
+h1{
+    color: $cor-text-title;
 }
 
-.header{
-    .menu-navegacao()
-    .menu-social()
+button{
+    background-color: $cor-bg-button;
+    border-color: $cor-border-button;
+    color: $cor-text-title;
+    margin-top: 50px;
+    padding: 15px;
 }
 
-.job-list{}
+.header{}
+.job-list{
+    justify-content: space-evenly;
+    
+}
+
 .lista-sem-estilo{
     padding: 0;
     list-style: none;
