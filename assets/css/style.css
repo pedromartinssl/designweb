@@ -1,5 +1,5 @@
 /**
-Regras de break points
+regras de break points
 */
 .container {
   max-width: 1200px;
@@ -11,19 +11,19 @@ Regras de break points
   display: flex;
 }
 
-.alinhar-esquerda {
+.alinhar-h-esquerda {
   justify-content: flex-start;
 }
 
-.alinhar-esquerda {
+.alinhar-v-esquerda {
   align-items: flex-start;
 }
 
-.alinhar-direita {
+.alinhar-h-direita {
   justify-content: flex-end;
 }
 
-.alinhar-direita {
+.alinhar-v-direita {
   align-items: flex-end;
 }
 
@@ -42,27 +42,32 @@ Regras de break points
 /**    Especificando as fontes */
 /**    Especificando cores */
 body {
-  font: "IBM Plex Mono", monospace;
+  font-family: "IBM Plex Mono", monospace;
   background-color: #1B1B1B;
   color: #9C9C9C;
+  font-size: 18px;
+  line-height: 160%;
 }
 
-h1 {
+main .perfil h1 {
   color: #FFFFFF;
+  font-family: "Raleway", sans-serif;
+  font-size: 44px;
 }
-
-button {
-  background-color: #3F8E00;
-  border-color: #62BA1B;
+main .perfil h3 {
   color: #FFFFFF;
-  margin-top: 50px;
-  padding: 15px;
+  font-family: "Raleway", sans-serif;
+  font-size: 24px;
+  font-weight: 200;
 }
-
-.job-list {
-  justify-content: space-evenly;
+main .perfil button {
+  color: #FFFFFF;
+  padding: 1em 3em;
+  border-radius: 4px;
+  border: 1px solid #62BA1B;
+  background: #62BA1B;
+  box-shadow: 0 8px 30px 0 rgba(63, 142, 0, 0.5);
 }
-
 .lista-sem-estilo {
   padding: 0;
   list-style: none;
