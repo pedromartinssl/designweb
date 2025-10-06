@@ -15,6 +15,10 @@ $break-watch: 400px;
     @extend .display-flex;
 }
 
+.jobs{
+    gap: 24px;
+}
+
 .display-flex{
     display: flex;
 }
