@@ -125,4 +125,31 @@ main .perfil button {
   border-radius: 5px;
 }
 
+/* breapoint para tablet + */
+@media (max-width: 668px) {
+  .navbar__toggle {
+    display: none;
+  }
+  .grid {
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+  }
+}
+/* breapoint para celulares*/
+@media (max-width: 667px) {
+  .navbar .grid {
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+  }
+  .navbar__menu {
+    /*--*/
+  }
+  .card-list {
+    transition: transform 0.3s ease;
+    transform-style: preserve-3d;
+  }
+}
+
 /*# sourceMappingURL=style.css.map */
